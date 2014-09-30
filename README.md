@@ -9,7 +9,7 @@ In case of same Placing-tag, first comes the page with the name first in alphabe
 2. Add the following line to 'config.php' at the root of your Pico install:
 
 ```php
-config['pages_order_by'] = 'placing';
+$config['pages_order_by'] = 'placing';
 ```
 
 3. Example page meta data:
